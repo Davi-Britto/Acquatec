@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Geneva, sans-serif;
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.header{
+    border-bottom: 2px #32b9cd solid;
+}
+
+.header .container{
+    justify-content: space-between;
+}
+
+.header a{
+    text-decoration: none;
+    color: #e3b062;
+}
+
+.agora{
+    font-weight: 800;
+}
+
+.linha{
+    color: #e3b062;
+}
+
+.navbar{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.titulo{
+    color: #32b9cd;
+    width: fit-content; /* o texto se adequa ao conteúdo, ex: dependendo do tamanho do texto, ele vai aumentando a largura automáticamente, de 300px para 400px para 500px ...*/
+    font-weight: 500;
+}
+
+.banner{
+    height: fit-content;
+    padding: 40px 0; /*40px == top e bottom | 0 == right e left; Ordem: top, right, bottom, left*/
+    color: white;
+    background-image: url('../assets/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover; /*msm tamanho do banner, cobrindo tudo*/
+}
+
+.banner .container{
+    height: 400px;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p{
+    height: fit-content;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+}
+
+.banner .container span{
+    font-weight: 800;
+}
+
+.banner .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: 40%;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 227);
+}
+
+.login-campos{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.banner h4{
+    color: #e26696;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+.banner .login span{
+    color: #e26696;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.banner input{
+    padding: 10px;
+    border: 1px #32B9CD solid;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn_login{
+    padding: 10px;
+    background-color: #E6005A;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    width: 120px;
+    margin: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #32B9CD;
+    height: 150px;
+}
+
+.footer p{
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 700;
+    font-family: sans-serif;
+}
